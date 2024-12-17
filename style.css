@@ -1,0 +1,12 @@
+:root{
+    --bg-wrap: #f0f5f5;
+}
+
+.pagewrap{
+    min-height: calc(100vh - 40px);
+    min-width: calc(100vh - 40px);
+    position: relative;
+    background: var(--bg-wrap);
+    overflow: hidden;
+    transition: background 1s;
+}
