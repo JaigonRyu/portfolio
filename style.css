@@ -1,12 +1,71 @@
-:root{
-    --bg-wrap: #f0f5f5;
+
+
+body {
+	background-color: #fff;
+	color: #494949;
+	font-family: 'proxima-nova', sans-serif;
+	font-size: 18px;
+	font-size: 1.8rem;
+	font-weight: 300;
+	line-height: 1.875;
+	margin: 0;
 }
 
-.pagewrap{
-    min-height: calc(100vh - 40px);
-    min-width: calc(100vh - 40px);
-    position: relative;
-    background: var(--bg-wrap);
+
+
+#name-card{
+    text-align: center;
+    opacity: 100%;
+}
+
+.header{
+    /*background-color: #f0f0f0;*/ 
+    padding: 10px; 
+    border-radius: 5px;
+}
+
+.navbar{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul{
+    list-style-type: none;
+    
+    padding: 0px;
+    margin: 0px;
+    
     overflow: hidden;
-    transition: background 1s;
+    display: inline-flex;
+ 
+}
+
+.navbar a{
+    color: #494949;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-family: 'proxima-nova', sans-serif;
+   
+}
+
+.navbar a:hover{
+    background-color: hsl(0, 0%, 80%);
+
+}
+
+.navbar li{
+    float: left;
+}
+
+.Projects{
+    padding-left: 10px;
+    background-color:  hsla(0, 4%, 78%, 0.253);
+    margin: 20px;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    text-align: left;
+
 }
